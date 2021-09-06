@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4EFADFE24FA953B0051EA77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EFADFD24FA953B0051EA77 /* AppDelegate.swift */; };
+		D4EFAE0024FA953B0051EA77 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EFADFF24FA953B0051EA77 /* SceneDelegate.swift */; };
+		D4EFAE0224FA953B0051EA77 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EFAE0124FA953B0051EA77 /* ViewController.swift */; };
+		D4EFAE0524FA953B0051EA77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4EFAE0324FA953B0051EA77 /* Main.storyboard */; };
+		D4EFAE0824FA953B0051EA77 /* SantanderChallenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D4EFAE0624FA953B0051EA77 /* SantanderChallenge.xcdatamodeld */; };
+		D4EFAE0A24FA953C0051EA77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4EFAE0924FA953C0051EA77 /* Assets.xcassets */; };
+		D4EFAE0D24FA953C0051EA77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4EFAE0B24FA953C0051EA77 /* LaunchScreen.storyboard */; };
+		D4EFAE1624FA955D0051EA77 /* Administrador.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4EFAE1424FA955D0051EA77 /* Administrador.storyboard */; };
+		D4EFAE1924FA957C0051EA77 /* Usuario.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4EFAE1724FA957C0051EA77 /* Usuario.storyboard */; };
+		D4EFAE2824FA9EC00051EA77 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EFAE2724FA9EC00051EA77 /* LoginViewController.swift */; };
+		D4EFAE2A24FA9EEF0051EA77 /* InicioAdministradorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EFAE2924FA9EEF0051EA77 /* InicioAdministradorViewController.swift */; };
+		D4EFAE2C24FA9F0A0051EA77 /* VerMeetAdministradorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EFAE2B24FA9F0A0051EA77 /* VerMeetAdministradorViewController.swift */; };
+		D4EFAE2E24FA9F2D0051EA77 /* CrearMeetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EFAE2D24FA9F2D0051EA77 /* CrearMeetViewController.swift */; };
+		D4EFAE3024FA9F530051EA77 /* InicioUsuarioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EFAE2F24FA9F530051EA77 /* InicioUsuarioViewController.swift */; };
+		D4EFAE3224FA9F760051EA77 /* VerMeetUsuarioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EFAE3124FA9F760051EA77 /* VerMeetUsuarioViewController.swift */; };
+		D4EFAE3424FAB4650051EA77 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EFAE3324FAB4650051EA77 /* LocationService.swift */; };
+		D4EFAE3624FAB4BA0051EA77 /* ClimaService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EFAE3524FAB4BA0051EA77 /* ClimaService.swift */; };
+		D4EFAE3824FAB55B0051EA77 /* MeetService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EFAE3724FAB55B0051EA77 /* MeetService.swift */; };
+		D4EFAE3A24FAF5F00051EA77 /* UsuarioService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EFAE3924FAF5F00051EA77 /* UsuarioService.swift */; };
+		D4EFAE4324FB13980051EA77 /* UsuarioRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EFAE4224FB13980051EA77 /* UsuarioRealm.swift */; };
+		D4EFAE4624FB13B80051EA77 /* MeetRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EFAE4524FB13B80051EA77 /* MeetRealm.swift */; };
+		D4EFAE4924FB15F40051EA77 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EFAE4824FB15F40051EA77 /* DBManager.swift */; };
+		D4EFAE4B24FB192D0051EA77 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EFAE4A24FB192D0051EA77 /* Utils.swift */; };
+		D4EFAE4D24FB37380051EA77 /* Clima.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EFAE4C24FB37380051EA77 /* Clima.swift */; };
+		D4EFAE5124FB40C30051EA77 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EFAE5024FB40C30051EA77 /* CustomTableViewCell.swift */; };
+		D4EFAE5524FBEBA80051EA77 /* MeetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EFAE5424FBEBA80051EA77 /* MeetManager.swift */; };
+		D4EFAE5724FBEF670051EA77 /* UsuarioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EFAE5624FBEF670051EA77 /* UsuarioManager.swift */; };
+		F90E8FB6BFE55352AC1AEF7B /* Pods_SantanderChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7AE1F720382B9B0B43AFE4 /* Pods_SantanderChallenge.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		99E3C29B08360EB70AFB3EF3 /* Pods-SantanderChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SantanderChallenge.debug.xcconfig"; path = "Target Support Files/Pods-SantanderChallenge/Pods-SantanderChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		AF5AE82A135848E8FED0AAEC /* Pods-SantanderChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SantanderChallenge.release.xcconfig"; path = "Target Support Files/Pods-SantanderChallenge/Pods-SantanderChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		D4EFADFA24FA953B0051EA77 /* SantanderChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SantanderChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4EFADFD24FA953B0051EA77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D4EFADFF24FA953B0051EA77 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D4EFAE0124FA953B0051EA77 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D4EFAE0424FA953B0051EA77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D4EFAE0724FA953B0051EA77 /* SantanderChallenge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SantanderChallenge.xcdatamodel; sourceTree = "<group>"; };
+		D4EFAE0924FA953C0051EA77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4EFAE0C24FA953C0051EA77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D4EFAE0E24FA953C0051EA77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4EFAE1524FA955D0051EA77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Administrador.storyboard; sourceTree = "<group>"; };
+		D4EFAE1824FA957C0051EA77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Usuario.storyboard; sourceTree = "<group>"; };
+		D4EFAE2724FA9EC00051EA77 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = Classes/Modules/Login/ViewControllers/LoginViewController.swift; sourceTree = "<group>"; };
+		D4EFAE2924FA9EEF0051EA77 /* InicioAdministradorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = InicioAdministradorViewController.swift; path = Classes/Modules/Administrador/ViewControllers/InicioAdministradorViewController.swift; sourceTree = "<group>"; };
+		D4EFAE2B24FA9F0A0051EA77 /* VerMeetAdministradorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = VerMeetAdministradorViewController.swift; path = Classes/Modules/Administrador/ViewControllers/VerMeetAdministradorViewController.swift; sourceTree = "<group>"; };
+		D4EFAE2D24FA9F2D0051EA77 /* CrearMeetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CrearMeetViewController.swift; path = Classes/Modules/Administrador/ViewControllers/CrearMeetViewController.swift; sourceTree = "<group>"; };
+		D4EFAE2F24FA9F530051EA77 /* InicioUsuarioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = InicioUsuarioViewController.swift; path = Classes/Modules/Usuario/ViewControllers/InicioUsuarioViewController.swift; sourceTree = "<group>"; };
+		D4EFAE3124FA9F760051EA77 /* VerMeetUsuarioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = VerMeetUsuarioViewController.swift; path = Classes/Modules/Usuario/ViewControllers/VerMeetUsuarioViewController.swift; sourceTree = "<group>"; };
+		D4EFAE3324FAB4650051EA77 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LocationService.swift; path = Classes/Services/LocationService.swift; sourceTree = "<group>"; };
+		D4EFAE3524FAB4BA0051EA77 /* ClimaService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ClimaService.swift; path = Classes/Services/ClimaService.swift; sourceTree = "<group>"; };
+		D4EFAE3724FAB55B0051EA77 /* MeetService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MeetService.swift; path = Classes/Services/MeetService.swift; sourceTree = "<group>"; };
+		D4EFAE3924FAF5F00051EA77 /* UsuarioService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UsuarioService.swift; path = Classes/Services/UsuarioService.swift; sourceTree = "<group>"; };
+		D4EFAE4224FB13980051EA77 /* UsuarioRealm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UsuarioRealm.swift; path = Classes/Model/UsuarioRealm.swift; sourceTree = "<group>"; };
+		D4EFAE4524FB13B80051EA77 /* MeetRealm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MeetRealm.swift; path = Classes/Model/MeetRealm.swift; sourceTree = "<group>"; };
+		D4EFAE4824FB15F40051EA77 /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DBManager.swift; path = SantanderChallenge/Classes/Manager/DBManager.swift; sourceTree = SOURCE_ROOT; };
+		D4EFAE4A24FB192D0051EA77 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = Classes/Utils/Utils.swift; sourceTree = "<group>"; };
+		D4EFAE4C24FB37380051EA77 /* Clima.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Clima.swift; path = Classes/Model/Clima.swift; sourceTree = "<group>"; };
+		D4EFAE5024FB40C30051EA77 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CustomTableViewCell.swift; path = Classes/Utils/CustomTableViewCell.swift; sourceTree = "<group>"; };
+		D4EFAE5424FBEBA80051EA77 /* MeetManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MeetManager.swift; path = SantanderChallenge/Classes/Manager/MeetManager.swift; sourceTree = SOURCE_ROOT; };
+		D4EFAE5624FBEF670051EA77 /* UsuarioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UsuarioManager.swift; path = SantanderChallenge/Classes/Manager/UsuarioManager.swift; sourceTree = SOURCE_ROOT; };
+		FC7AE1F720382B9B0B43AFE4 /* Pods_SantanderChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SantanderChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4EFADF724FA953B0051EA77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F90E8FB6BFE55352AC1AEF7B /* Pods_SantanderChallenge.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		997884CA79AC8787E80F43AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC7AE1F720382B9B0B43AFE4 /* Pods_SantanderChallenge.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4EFADF124FA953B0051EA77 = {
+			isa = PBXGroup;
+			children = (
+				D4EFADFC24FA953B0051EA77 /* SantanderChallenge */,
+				D4EFADFB24FA953B0051EA77 /* Products */,
+				DD9B53D3A799067CCD9F1F0F /* Pods */,
+				997884CA79AC8787E80F43AF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D4EFADFB24FA953B0051EA77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4EFADFA24FA953B0051EA77 /* SantanderChallenge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4EFADFC24FA953B0051EA77 /* SantanderChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				D4EFAE1B24FA95A00051EA77 /* Classes */,
+				D4EFAE1A24FA95820051EA77 /* Storyboards */,
+				D4EFADFD24FA953B0051EA77 /* AppDelegate.swift */,
+				D4EFADFF24FA953B0051EA77 /* SceneDelegate.swift */,
+				D4EFAE0124FA953B0051EA77 /* ViewController.swift */,
+				D4EFAE0924FA953C0051EA77 /* Assets.xcassets */,
+				D4EFAE0E24FA953C0051EA77 /* Info.plist */,
+				D4EFAE0624FA953B0051EA77 /* SantanderChallenge.xcdatamodeld */,
+			);
+			path = SantanderChallenge;
+			sourceTree = "<group>";
+		};
+		D4EFAE1A24FA95820051EA77 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				D4EFAE0324FA953B0051EA77 /* Main.storyboard */,
+				D4EFAE0B24FA953C0051EA77 /* LaunchScreen.storyboard */,
+				D4EFAE1424FA955D0051EA77 /* Administrador.storyboard */,
+				D4EFAE1724FA957C0051EA77 /* Usuario.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		D4EFAE1B24FA95A00051EA77 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D4EFAE4724FB15B00051EA77 /* Manager */,
+				D4EFAE4124FB138F0051EA77 /* Models */,
+				D4EFAE2124FA964F0051EA77 /* Services */,
+				D4EFAE1D24FA95FB0051EA77 /* Utils */,
+				D4EFAE1C24FA95EB0051EA77 /* Modules */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		D4EFAE1C24FA95EB0051EA77 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				D4EFAE2524FA9DCF0051EA77 /* Login */,
+				D4EFAE2224FA96570051EA77 /* Usuario */,
+				D4EFAE1E24FA96250051EA77 /* Administrador */,
+			);
+			name = Modules;
+			sourceTree = "<group>";
+		};
+		D4EFAE1D24FA95FB0051EA77 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D4EFAE4A24FB192D0051EA77 /* Utils.swift */,
+				D4EFAE5024FB40C30051EA77 /* CustomTableViewCell.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		D4EFAE1E24FA96250051EA77 /* Administrador */ = {
+			isa = PBXGroup;
+			children = (
+				D4EFAE1F24FA962D0051EA77 /* ViewControllers */,
+			);
+			name = Administrador;
+			sourceTree = "<group>";
+		};
+		D4EFAE1F24FA962D0051EA77 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D4EFAE2924FA9EEF0051EA77 /* InicioAdministradorViewController.swift */,
+				D4EFAE2B24FA9F0A0051EA77 /* VerMeetAdministradorViewController.swift */,
+				D4EFAE2D24FA9F2D0051EA77 /* CrearMeetViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D4EFAE2124FA964F0051EA77 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D4EFAE3324FAB4650051EA77 /* LocationService.swift */,
+				D4EFAE3524FAB4BA0051EA77 /* ClimaService.swift */,
+				D4EFAE3724FAB55B0051EA77 /* MeetService.swift */,
+				D4EFAE3924FAF5F00051EA77 /* UsuarioService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		D4EFAE2224FA96570051EA77 /* Usuario */ = {
+			isa = PBXGroup;
+			children = (
+				D4EFAE2324FA965F0051EA77 /* ViewControllers */,
+			);
+			name = Usuario;
+			sourceTree = "<group>";
+		};
+		D4EFAE2324FA965F0051EA77 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D4EFAE2F24FA9F530051EA77 /* InicioUsuarioViewController.swift */,
+				D4EFAE3124FA9F760051EA77 /* VerMeetUsuarioViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D4EFAE2524FA9DCF0051EA77 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				D4EFAE2624FA9E270051EA77 /* ViewControllers */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		D4EFAE2624FA9E270051EA77 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D4EFAE2724FA9EC00051EA77 /* LoginViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D4EFAE4124FB138F0051EA77 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D4EFAE4224FB13980051EA77 /* UsuarioRealm.swift */,
+				D4EFAE4524FB13B80051EA77 /* MeetRealm.swift */,
+				D4EFAE4C24FB37380051EA77 /* Clima.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		D4EFAE4724FB15B00051EA77 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				D4EFAE4824FB15F40051EA77 /* DBManager.swift */,
+				D4EFAE5424FBEBA80051EA77 /* MeetManager.swift */,
+				D4EFAE5624FBEF670051EA77 /* UsuarioManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		DD9B53D3A799067CCD9F1F0F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				99E3C29B08360EB70AFB3EF3 /* Pods-SantanderChallenge.debug.xcconfig */,
+				AF5AE82A135848E8FED0AAEC /* Pods-SantanderChallenge.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4EFADF924FA953B0051EA77 /* SantanderChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4EFAE1124FA953C0051EA77 /* Build configuration list for PBXNativeTarget "SantanderChallenge" */;
+			buildPhases = (
+				038195C65D969DEA8C97B89A /* [CP] Check Pods Manifest.lock */,
+				D4EFADF624FA953B0051EA77 /* Sources */,
+				D4EFADF724FA953B0051EA77 /* Frameworks */,
+				D4EFADF824FA953B0051EA77 /* Resources */,
+				764506B9EC6DFF334D436ED1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SantanderChallenge;
+			productName = SantanderChallenge;
+			productReference = D4EFADFA24FA953B0051EA77 /* SantanderChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4EFADF224FA953B0051EA77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = Reflejo;
+				TargetAttributes = {
+					D4EFADF924FA953B0051EA77 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = D4EFADF524FA953B0051EA77 /* Build configuration list for PBXProject "SantanderChallenge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4EFADF124FA953B0051EA77;
+			productRefGroup = D4EFADFB24FA953B0051EA77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4EFADF924FA953B0051EA77 /* SantanderChallenge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4EFADF824FA953B0051EA77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4EFAE1624FA955D0051EA77 /* Administrador.storyboard in Resources */,
+				D4EFAE0D24FA953C0051EA77 /* LaunchScreen.storyboard in Resources */,
+				D4EFAE1924FA957C0051EA77 /* Usuario.storyboard in Resources */,
+				D4EFAE0A24FA953C0051EA77 /* Assets.xcassets in Resources */,
+				D4EFAE0524FA953B0051EA77 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		038195C65D969DEA8C97B89A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SantanderChallenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		764506B9EC6DFF334D436ED1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SantanderChallenge/Pods-SantanderChallenge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SantanderChallenge/Pods-SantanderChallenge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SantanderChallenge/Pods-SantanderChallenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4EFADF624FA953B0051EA77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4EFAE4624FB13B80051EA77 /* MeetRealm.swift in Sources */,
+				D4EFAE3624FAB4BA0051EA77 /* ClimaService.swift in Sources */,
+				D4EFAE3224FA9F760051EA77 /* VerMeetUsuarioViewController.swift in Sources */,
+				D4EFAE3024FA9F530051EA77 /* InicioUsuarioViewController.swift in Sources */,
+				D4EFAE0224FA953B0051EA77 /* ViewController.swift in Sources */,
+				D4EFAE2A24FA9EEF0051EA77 /* InicioAdministradorViewController.swift in Sources */,
+				D4EFAE5124FB40C30051EA77 /* CustomTableViewCell.swift in Sources */,
+				D4EFAE2C24FA9F0A0051EA77 /* VerMeetAdministradorViewController.swift in Sources */,
+				D4EFAE5524FBEBA80051EA77 /* MeetManager.swift in Sources */,
+				D4EFADFE24FA953B0051EA77 /* AppDelegate.swift in Sources */,
+				D4EFAE3424FAB4650051EA77 /* LocationService.swift in Sources */,
+				D4EFAE0824FA953B0051EA77 /* SantanderChallenge.xcdatamodeld in Sources */,
+				D4EFAE2824FA9EC00051EA77 /* LoginViewController.swift in Sources */,
+				D4EFAE4B24FB192D0051EA77 /* Utils.swift in Sources */,
+				D4EFAE4924FB15F40051EA77 /* DBManager.swift in Sources */,
+				D4EFAE4324FB13980051EA77 /* UsuarioRealm.swift in Sources */,
+				D4EFAE3824FAB55B0051EA77 /* MeetService.swift in Sources */,
+				D4EFAE0024FA953B0051EA77 /* SceneDelegate.swift in Sources */,
+				D4EFAE5724FBEF670051EA77 /* UsuarioManager.swift in Sources */,
+				D4EFAE3A24FAF5F00051EA77 /* UsuarioService.swift in Sources */,
+				D4EFAE2E24FA9F2D0051EA77 /* CrearMeetViewController.swift in Sources */,
+				D4EFAE4D24FB37380051EA77 /* Clima.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D4EFAE0324FA953B0051EA77 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4EFAE0424FA953B0051EA77 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D4EFAE0B24FA953C0051EA77 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4EFAE0C24FA953C0051EA77 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D4EFAE1424FA955D0051EA77 /* Administrador.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4EFAE1524FA955D0051EA77 /* Base */,
+			);
+			name = Administrador.storyboard;
+			sourceTree = "<group>";
+		};
+		D4EFAE1724FA957C0051EA77 /* Usuario.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4EFAE1824FA957C0051EA77 /* Base */,
+			);
+			name = Usuario.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4EFAE0F24FA953C0051EA77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D4EFAE1024FA953C0051EA77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4EFAE1224FA953C0051EA77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99E3C29B08360EB70AFB3EF3 /* Pods-SantanderChallenge.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YW68965SJP;
+				INFOPLIST_FILE = SantanderChallenge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Reflejo.SantanderChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D4EFAE1324FA953C0051EA77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF5AE82A135848E8FED0AAEC /* Pods-SantanderChallenge.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YW68965SJP;
+				INFOPLIST_FILE = SantanderChallenge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Reflejo.SantanderChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4EFADF524FA953B0051EA77 /* Build configuration list for PBXProject "SantanderChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4EFAE0F24FA953C0051EA77 /* Debug */,
+				D4EFAE1024FA953C0051EA77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4EFAE1124FA953C0051EA77 /* Build configuration list for PBXNativeTarget "SantanderChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4EFAE1224FA953C0051EA77 /* Debug */,
+				D4EFAE1324FA953C0051EA77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D4EFAE0624FA953B0051EA77 /* SantanderChallenge.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D4EFAE0724FA953B0051EA77 /* SantanderChallenge.xcdatamodel */,
+			);
+			currentVersion = D4EFAE0724FA953B0051EA77 /* SantanderChallenge.xcdatamodel */;
+			path = SantanderChallenge.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D4EFADF224FA953B0051EA77 /* Project object */;
+}
